@@ -118,7 +118,7 @@ h2, h4 {
   font-size: 1.25rem;
 }
 
-h5 {
+h5, p {
   font-size: 1.125rem;
 }
 
@@ -129,6 +129,69 @@ img {
 figure {
   margin: 0;
 }
+
+.content-wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Base Header - Footer Styles */
+header, footer, .hero {
+  background-color: #453e4f;
+  color: #ffe8d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+/* Header styles */
+.nav-bar {
+  padding: 30px 0 60px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  color: #ffe8d6;
+  font-weight: bold;
+  margin-top: 0.75rem;
+  text-decoration: none;
+}
+
+#contact-btn {
+  color: #453E4F;
+  background-color: pink;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+
+/* Hero Styles */
+.hero {
+  padding-bottom: 30px;
+}
+
+h1, h2 {
+  padding-bottom: 30px;
+  letter-spacing: 0.05rem;
+}
+
+h2 {
+  font-weight: 400;
+}
+/* Work Styles */
+/* Skills Styles */
+/* Contact Styles */
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
