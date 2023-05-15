@@ -251,8 +251,30 @@ h1 {
   margin-right: 10px;
 }
 
-
 /* Skills Styles */
+
+#skills {
+  background-color: #453e4f;
+  color: #ffe8d6;
+  padding: 60px 0;
+}
+
+#skills h3 {
+  margin: 40px auto;
+}
+
+.language-wrapper, .tools-wrapper {
+  text-align: center;
+}
+
+.skill {
+  margin: 20px auto;
+  background-color: pink;
+  color: #453e4f;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+
 /* Contact Styles */
 
 
