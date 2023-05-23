@@ -102,7 +102,7 @@ body {
   color: #453E4F;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -159,6 +159,10 @@ header, footer {
 }
 
 /**** Navigation Bar ****/
+.logo {
+  display: none;
+}
+
 .nav-bar {
   padding-bottom: 60px;
 }
@@ -275,8 +279,93 @@ h1 {
   text-transform: uppercase;
 }
 
+/* About Styles */
+#about {
+  padding: 60px 0;
+}
+
+.about-img figure {
+  text-align: center;
+  margin: 40px 0;
+}
+
 /* Contact Styles */
 
+h4 {
+  margin-bottom: 20px;
+}
+
+#contact {
+  background-color: #453e4f;
+  color: #ffe8d6;
+  padding: 60px 0 30px 0;
+}
+
+#contact .content-wrapper {
+  max-width: 420px;
+}
+
+.contact-text {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.contact-button {
+  text-align: center;
+  margin: 40px 0 60px 0;
+}
+
+.btn {
+  color: #453E4F;
+  background-color: pink;
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* .contact-form {
+  margin: 30px 0;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form input {
+ border-radius: 10px;
+ margin-bottom: 20px;
+ padding: 15px 5px;
+ width: 270px;
+}
+
+.contact-form textarea {
+  border-radius: 10px;
+  padding: 15px 5px;
+}
+
+.contact-form button {
+  margin: 20px 0;
+  padding: 10px 25px;
+  border-radius: 10px;
+} */
+
+.social-icons ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.social-icons ul li a {
+  color: #ffe8d6;
+  font-size: 1.75rem;
+}
 
 /* ==========================================================================
    Helper classes
