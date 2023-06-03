@@ -486,7 +486,20 @@ h4 {
   .nav-bar {
     width: 85%;
   }
+
+  .work-projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .project-card {
+    flex-basis: 40%;
+  }
+
+
 }
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
