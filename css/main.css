@@ -487,13 +487,13 @@ h4 {
     width: 85%;
   }
 
-  .work-projects {
+  .work-projects, .language-wrapper {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
   }
   
-  .project-card {
+  .project-card, .skill {
     flex-basis: 40%;
   }
 
