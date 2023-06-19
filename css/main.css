@@ -283,7 +283,7 @@ h1 {
   text-align: center;
 }
 
-.skill {
+.skill, .tool {
   margin: 20px auto;
   background-color: #f19494;
   color: #453e4f;
@@ -487,14 +487,15 @@ h4 {
     width: 85%;
   }
 
-  .work-projects, .language-wrapper {
+  .work-projects, .language-wrapper, .tools-wrapper {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
   }
   
-  .project-card, .skill {
+  .project-card, .skill, .tool {
     flex-basis: 40%;
+    justify-content: flex-start;
   }
 
 
