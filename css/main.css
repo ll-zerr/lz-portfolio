@@ -254,7 +254,8 @@ h1 {
   border: none;
   border-radius: 20px;
   background-color: #453e4f;
-  padding: 0.75rem 2.75rem;
+  cursor: pointer;
+  padding: 1rem 2.75rem;
   margin-bottom: 20px;
   /* width: 80%; */
 }
