@@ -105,7 +105,7 @@ body {
   font-size: 1rem;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3 {
   font-family: 'Alike', serif;
   margin: 0;
 }
@@ -120,11 +120,11 @@ h2, h3 {
   text-align: center;
 }
 
-h3, h4 {
+h3 {
   font-size: 1.25rem;
 }
 
-h5, p {
+p {
   font-size: 1.125rem;
 }
 
@@ -307,10 +307,6 @@ h1 {
 
 /* Contact Styles */
 
-h4 {
-  margin-bottom: 20px;
-}
-
 #contact {
   background-color: #453e4f;
   color: #ffe8d6;
@@ -345,35 +341,6 @@ h4 {
   background: #f8c6c6;
 }
 
-/* .contact-form {
-  margin: 30px 0;
-}
-
-.contact-form form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact-form input {
- border-radius: 10px;
- margin-bottom: 20px;
- padding: 15px 5px;
- width: 270px;
-}
-
-.contact-form textarea {
-  border-radius: 10px;
-  padding: 15px 5px;
-}
-
-.contact-form button {
-  margin: 20px 0;
-  padding: 10px 25px;
-  border-radius: 10px;
-} */
-
 .social-icons ul {
   display: flex;
   justify-content: space-around;
@@ -385,6 +352,10 @@ h4 {
 .social-icons ul li a {
   color: #ffe8d6;
   font-size: 1.75rem;
+}
+
+footer p {
+  font-size: 0.95rem;
 }
 
 /* ==========================================================================
