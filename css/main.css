@@ -449,6 +449,10 @@ footer p {
 
 @media only screen and (min-width: 768px) {
   /**************** Tablet styles  - General **************/
+  header, footer {
+    padding: 60px 0 80px;
+  }
+
   header .content-wrapper {
     display: flex;
     justify-content: center;
@@ -461,6 +465,7 @@ footer p {
 
   .nav-bar {
     width: 85%;
+    padding-bottom: 80px;
   }
 
   .work-projects, .language-wrapper, .tools-wrapper {
@@ -474,6 +479,13 @@ footer p {
     justify-content: flex-start;
   }
 
+  #about {
+    padding: 80px 0;
+  }
+
+  #contact {
+    padding: 120px 0 20px;
+  }
 
 }
 
