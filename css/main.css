@@ -124,7 +124,11 @@ h3 {
   font-size: 1.25rem;
 }
 
-h4, p {
+h4 {
+  font-size: 1.1875rem;
+}
+
+p {
   font-size: 1.125rem;
 }
 
@@ -451,6 +455,7 @@ footer p {
   /**************** Tablet styles  - General **************/
   h1 {
     font-size: 2.5rem;
+    padding-bottom: 60px;
   }
 
   header, footer {
@@ -516,6 +521,32 @@ footer p {
   #contact {
     padding: 120px 0 20px;
   }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  h4 {
+    margin-top: 0;
+  }
+
+.content-wrapper {
+  max-width: 900px;
+}
+
+.about-specifics {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.about-img, .about-content {
+  flex-basis: 50%;
+}
+
+.about-img figure {
+  filter: drop-shadow(5px 10px 6px #55505a);
+  margin: 0;
+}
 
 }
 
