@@ -186,6 +186,29 @@ header, footer {
   text-transform: uppercase;
 }
 
+.animation {
+  display: inline-block;
+  position: relative;
+} 
+
+.animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f8c6c6;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 #contact-btn {
   color: #453E4F;
   background-color: #f19494;
