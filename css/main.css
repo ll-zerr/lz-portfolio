@@ -289,18 +289,14 @@ h1 {
 .project-links {
   text-align: center;
   margin: 40px 0 20px 0;
-}
-
-.project-links button {
   border: none;
   border-radius: 20px;
   background-color: #453e4f;
   cursor: pointer;
   padding: 16px 44px;
-  margin-bottom: 20px;
 }
 
-.project-links a {
+.project-links a { 
   color: #ffe8d6;
   font-size: 1.125rem;
   text-decoration: none;

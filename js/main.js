@@ -1,4 +1,4 @@
-const projectButtons = document.querySelectorAll(".project-links button");
+const projectButtons = document.querySelectorAll(".project-links");
 
 projectButtons.forEach ((btn) => {
     const textElement = btn.querySelector(".project-links a");
