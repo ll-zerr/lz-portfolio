@@ -340,7 +340,7 @@ h1 {
   margin: 40px auto;
 }
 
-.language-wrapper, .tools-wrapper {
+.language-wrapper {
   text-align: center;
 }
 
@@ -348,7 +348,7 @@ h1 {
   margin: 20px auto;
   background-color: #f19494;
   color: #453e4f;
-  padding: 15px 0;
+  padding: 15px 5px;
   text-transform: uppercase;
 }
 
